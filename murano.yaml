@@ -18,12 +18,10 @@ info:
   # The version of the Project
   version: 1.0.0
 
-endpoints:
-  location: endpoints
+services: # Also applies for service configuration using .yaml format.
+  location: services
   include: '**/*.lua'
   exclude: ['*_test.lua', '*_spec.lua']
-  cors: {'origin': ['http://localhost:*']}
 
 # The format version of this file. This is required.
 formatversion: 1.0.0
-

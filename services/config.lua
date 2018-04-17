@@ -1,8 +1,8 @@
---#ENDPOINT GET /healthcheck
+--#EVENT config status
 -- this will return a default json payload that passes healthcheck endpoint validation
 
 --[[
-Upon successful install of the application, this enpoint should return a payload that 
+Upon successful install of the application, this enpoint should return a payload that
 matches the following schema:
 
 {
